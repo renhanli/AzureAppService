@@ -5,5 +5,5 @@ read -p 'Username: ' user
 read -sp 'Password: ' passwd
 read -p 'Database: ' database
 
-echo "Run connection test: "
+echo ">>>>>>>>>Run connection test "
 php ./mysqlconnect.php $server $user $passwd $database
